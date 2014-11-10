@@ -21,6 +21,7 @@
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     label.text = @"firstLabel";
+    label.textColor = [UIColor whiteColor];
     [self.view addSubview:label];
 }
 
